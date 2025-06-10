@@ -122,18 +122,18 @@ endfunction
 call s:define('g:battery', {
       \ 'backend': s:get_available_backend(),
       \ 'update_interval': 30000,
-      \ 'update_tabline': 0,
-      \ 'update_statusline': 0,
+      \ 'update_tabline': 1,
+      \ 'update_statusline': 1,
       \ 'component_format': '%s %v%% %g',
-      \ 'symbol_charging': '♥',
-      \ 'symbol_discharging': '♡',
+      \ 'symbol_charging': '󰚥',
+      \ 'symbol_discharging': '󰚦',
       \ 'graph_indicators': [
-      \   '░░░░░',
-      \   '█░░░░',
-      \   '██░░░',
-      \   '███░░',
-      \   '████░',
-      \   '█████',
+      \   '',
+      \   '',
+      \   '',
+      \   '',
+      \   '',
+      \   '',
       \ ],
       \})
 
